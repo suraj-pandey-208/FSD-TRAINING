@@ -4,12 +4,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import ICardGallery from './components/ICardGallery'
+import StateHandling from './components/StateHandling'
+import ChangebgColor from './components/ChangebgColor'
 function App() {
 
   return (
     <>
       <div>
-<ICardGallery></ICardGallery>
+{/* <ICardGallery></ICardGallery> */}
+<ChangebgColor></ChangebgColor>
+{/* <StateHandling></StateHandling> */}
       </div>
     </>
   )

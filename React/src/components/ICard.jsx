@@ -13,7 +13,7 @@ const ICard=({data})=>{
             <h2>College:{props.college}</h2> */} */
 
 
-            <img src={data.pic} height={200} width={300} alt="" />
+            <img src={data.pic} height={200} width={150} alt="" />
 
             {/* <img src={photo}  style={{width:"300px", height:"200px", margin:"10px" ,rounded:"10px"}}alt="" /> */}
             <h2>Roll:{data.roll}</h2>
